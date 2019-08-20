@@ -14,5 +14,4 @@ router.route('/:messageId')
     .get(getMessage)
     .delete(deleteMessage)
 
-
 module.exports = router;

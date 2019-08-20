@@ -30,6 +30,7 @@ exports.getMessage = async function(req, res, next){
     }
 };
 
+
 // DELETE /api/users/:id/messages/:messageId
 exports.deleteMessage = async function(req, res, next){
     try {
